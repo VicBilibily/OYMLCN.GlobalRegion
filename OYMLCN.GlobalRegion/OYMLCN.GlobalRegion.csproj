@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <Description>世界地理区域划分集合
+OYMLCN.GlobalRegion.M49 联合国地理区划列表
+OYMLCN.GlobalRegion.Data 大洲国家和地区数据集
+Continent、ContinentRegion、Africa、Americas、Asia、Oceania
+TimeIsKey各地区对应time.is的地区地址命名
+OYMLCN.GlobalRegion.Extensions
+DateTime.GetCountryTime(M49)获取当前国家时间(标准时，不包含夏令时)
+GetCountryUTCTimeDifference(M49)获取国家相较于UTC的时间偏差
+GetCountryTimeIsUrl(M49)获取国家时间再time.is的页面地址</Description>
+    <Authors>VicBilibily欧阳敏岚</Authors>
+    <Company>广东佰群网络科技股份有限公司</Company>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netcoreapp2.0\OYMLCN.GlobalRegion.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netcoreapp2.0\OYMLCN.GlobalRegion.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
