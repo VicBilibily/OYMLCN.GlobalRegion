@@ -57,7 +57,7 @@ namespace OYMLCN.GlobalRegion
         Somalia索马里 = 706,
         SouthSudan南苏丹 = 728,
         Uganda乌干达 = 800,
-        UnitedRepublicOfTanzania坦桑尼亚联合共和国 = 834,
+        Tanzania坦桑尼亚 = 834,
         Zambia赞比亚 = 894,
         Zimbabwe津巴布韦 = 716,
 
@@ -67,7 +67,7 @@ namespace OYMLCN.GlobalRegion
         CentralAfricanRepublic中非共和国 = 140,
         Chad乍得 = 148,
         Congo刚果 = 178,
-        DemocraticRepublicOfTheCongo刚果民主共和国 = 180,
+        RDCongo刚果民主共和国 = 180,
         EquatorialGuinea赤道几内亚 = 226,
         Gabon加蓬 = 266,
         SaoTomeandPrincipe圣多美和普林西比 = 678,

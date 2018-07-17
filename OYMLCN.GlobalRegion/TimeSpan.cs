@@ -136,7 +136,7 @@ namespace OYMLCN.GlobalRegion
                 case M49.CentralAfricanRepublic中非共和国:
                 case M49.Chad乍得:
                 case M49.Congo刚果:
-                case M49.DemocraticRepublicOfTheCongo刚果民主共和国:
+                case M49.RDCongo刚果民主共和国:
                 case M49.EquatorialGuinea赤道几内亚:
                 case M49.Gabon加蓬:
                 case M49.SaoTomeandPrincipe圣多美和普林西比:
@@ -220,7 +220,7 @@ namespace OYMLCN.GlobalRegion
                 case M49.Somalia索马里:
                 case M49.SouthSudan南苏丹:
                 case M49.Uganda乌干达:
-                case M49.UnitedRepublicOfTanzania坦桑尼亚联合共和国:
+                case M49.Tanzania坦桑尼亚:
                 case M49.Bahrain巴林:
                 case M49.Iraq伊拉克:
                 case M49.Kuwait科威特:
@@ -287,11 +287,9 @@ namespace OYMLCN.GlobalRegion
                 case M49.Philippines菲律宾:
                 case M49.Singapore新加坡:
                     return 8;
-                // UTC/GMT +8.5小时
-                case M49.DemocraticPeoplesRepublicOfKorea朝鲜民主主义人民共和国:
-                    return 8.5;
                 // UTC/GMT +9小时 (东九区)
                 case M49.Japan日本:
+                case M49.DemocraticPeoplesRepublicOfKorea朝鲜民主主义人民共和国:
                 case M49.RepublicOfKorea大韩民国:
                 case M49.TimorLeste东帝汶:
                 case M49.Palau帕劳:

@@ -62,7 +62,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Somalia索马里 , M49.EasternAfrica东部非洲 },
             { M49.SouthSudan南苏丹 , M49.EasternAfrica东部非洲 },
             { M49.Uganda乌干达 , M49.EasternAfrica东部非洲 },
-            { M49.UnitedRepublicOfTanzania坦桑尼亚联合共和国 , M49.EasternAfrica东部非洲 },
+            { M49.Tanzania坦桑尼亚 , M49.EasternAfrica东部非洲 },
             { M49.Zambia赞比亚 , M49.EasternAfrica东部非洲 },
             { M49.Zimbabwe津巴布韦 , M49.EasternAfrica东部非洲 },
 
@@ -71,7 +71,7 @@ namespace OYMLCN.GlobalRegion
             { M49.CentralAfricanRepublic中非共和国 , M49.MiddleAfrica中部非洲 },
             { M49.Chad乍得 , M49.MiddleAfrica中部非洲 },
             { M49.Congo刚果 , M49.MiddleAfrica中部非洲 },
-            { M49.DemocraticRepublicOfTheCongo刚果民主共和国 , M49.MiddleAfrica中部非洲 },
+            { M49.RDCongo刚果民主共和国 , M49.MiddleAfrica中部非洲 },
             { M49.EquatorialGuinea赤道几内亚 , M49.MiddleAfrica中部非洲 },
             { M49.Gabon加蓬 , M49.MiddleAfrica中部非洲 },
             { M49.SaoTomeandPrincipe圣多美和普林西比 , M49.MiddleAfrica中部非洲 },
@@ -328,30 +328,30 @@ namespace OYMLCN.GlobalRegion
             { M49.Comoros科摩罗 , "Comoros" },
             { M49.Djibouti吉布提 , "Djibouti" },
             { M49.Eritrea厄立特里亚 , "Eritrea" },
-            { M49.Ethiopia埃塞俄比亚 , "Ethiopia" },
+            { M49.Ethiopia埃塞俄比亚 , "Ethiopia" },//5
             { M49.Kenya肯尼亚 , "Kenya" },
             { M49.Madagascar马达加斯加 , "Madagascar" },
             { M49.Malawi马拉维 , "Malawi" },
             { M49.Mauritius毛里求斯 , "Mauritius" },
-            { M49.Mayotte马约特 , "Mayotte" },
+            { M49.Mayotte马约特 , "Mayotte" },//10
             { M49.Mozambique莫桑比克 , "Mozambique" },
             { M49.Reunion留尼汪 , "Réunion" },
             { M49.Rwanda卢旺达 , "Rwanda" },
             { M49.Seychelles塞舌尔 , "Seychelles" },
-            { M49.Somalia索马里 , "Somalia" },
+            { M49.Somalia索马里 , "Somalia" },//15
             { M49.SouthSudan南苏丹 , "South_Sudan" },
             { M49.Uganda乌干达 , "Uganda" },
-            { M49.UnitedRepublicOfTanzania坦桑尼亚联合共和国 , "Tanzania" },
+            { M49.Tanzania坦桑尼亚 , "Tanzania" },
             { M49.Zambia赞比亚 , "Zambia" },
-            { M49.Zimbabwe津巴布韦 , "Zimbabwe" },
+            { M49.Zimbabwe津巴布韦 , "Zimbabwe" },//20
 
             // MiddleAfrica中部非洲
             { M49.Angola安哥拉 , "Angola" },
             { M49.Cameroon喀麦隆 , "Cameroon" },
             { M49.CentralAfricanRepublic中非共和国 , "Central_African_Republic" },
             { M49.Chad乍得 , "Chad" },
-            { M49.Congo刚果 , "Congo-Brazzaville" },
-            { M49.DemocraticRepublicOfTheCongo刚果民主共和国 , "Congo-Kinshasa" },
+            { M49.Congo刚果 , "Congo-Brazzaville" },//5
+            { M49.RDCongo刚果民主共和国 , "Congo-Kinshasa" },
             { M49.EquatorialGuinea赤道几内亚 , "Equatorial_Guinea" },
             { M49.Gabon加蓬 , "Gabon" },
             { M49.SaoTomeandPrincipe圣多美和普林西比 , "São_Tomé_and_Príncipe" },
@@ -377,18 +377,18 @@ namespace OYMLCN.GlobalRegion
             { M49.BurkinaFaso布基纳法索 , "Burkina_Faso" },
             { M49.CaboVerde佛得角 , "Cape_Verde" },
             { M49.CotedIvoire科特迪瓦 , "Ivory_Coast" },
-            { M49.Gambia冈比亚 , "Gambia" },
+            { M49.Gambia冈比亚 , "Gambia" },//5
             { M49.Ghana加纳 , "Ghana" },
             { M49.Guinea几内亚 , "Guinea" },
             { M49.GuineaBissau几内亚比绍 , "Guinea-Bissau" },
             { M49.Liberia利比里亚 , "Liberia" },
-            { M49.Mali马里 , "Mali" },
+            { M49.Mali马里 , "Mali" },//10
             { M49.Mauritania毛里塔尼亚 , "Mauritania" },
             { M49.Niger尼日尔 , "Niger" },
             { M49.Nigeria尼日利亚 , "Nigeria" },
             { M49.SaintHelena圣赫勒拿 , "Saint_Helena" },
-            { M49.Senegal塞内加尔 , "Senegal" },
-            { M49.SierraLeone塞拉利昂 , "/Sierra_Leone" },
+            { M49.Senegal塞内加尔 , "Senegal" },//15
+            { M49.SierraLeone塞拉利昂 , "Sierra_Leone" },
             { M49.Togo多哥 , "Togo" },
 
             // Caribbean加勒比地区
@@ -609,5 +609,7 @@ namespace OYMLCN.GlobalRegion
             { M49.WallisandFutunaIslands瓦利斯和富图纳群岛 , "Wallis_and_Futuna" },
 
         };
+
+
     }
 }

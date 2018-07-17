@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.0</TargetFramework>
@@ -12,7 +12,7 @@ DateTime.GetCountryTime(M49)获取当前国家时间(标准时，不包含夏令
 GetCountryUTCTimeDifference(M49)获取国家相较于UTC的时间偏差
 GetCountryTimeIsUrl(M49)获取国家时间再time.is的页面地址</Description>
     <Authors>VicBilibily欧阳敏岚</Authors>
-    <Company>广东佰群网络科技股份有限公司</Company>
+    <Company>欧阳敏岚工作室</Company>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
