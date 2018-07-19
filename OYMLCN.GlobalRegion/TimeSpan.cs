@@ -84,11 +84,11 @@ namespace OYMLCN.GlobalRegion
                 case M49.SintMaarten圣马丁荷属部分:
                 case M49.TrinidadandTobago特立尼达和多巴哥:
                 case M49.UnitedStatesVirginIslands美属维尔京群岛:
-                case M49.PlurinationalStateOfBolivia多民族玻利维亚国:
+                case M49.Bolivia玻利维亚:
                 case M49.Chile智利:
                 case M49.Guyana圭亚那:
                 case M49.Paraguay巴拉圭:
-                case M49.BolivarianRepublicOfVenezuela委内瑞拉玻利瓦尔共和国:
+                case M49.Venezuela委内瑞拉:
                 case M49.Bermuda百慕大:
                     return -4;
                 // UTC/GMT -3小时 (西三区)
@@ -145,7 +145,7 @@ namespace OYMLCN.GlobalRegion
                 case M49.Benin贝宁:
                 case M49.Niger尼日尔:
                 case M49.Nigeria尼日利亚:
-                case M49.CzechRepublic捷克共和国:
+                case M49.Czech捷克:
                 case M49.Hungary匈牙利:
                 case M49.Poland波兰:
                 case M49.Slovakia斯洛伐克:
@@ -196,10 +196,10 @@ namespace OYMLCN.GlobalRegion
                 case M49.Israel以色列:
                 case M49.Jordan约旦:
                 case M49.Lebanon黎巴嫩:
-                case M49.StateOfPalestine巴勒斯坦国:
+                case M49.Palestine巴勒斯坦:
                 case M49.Bulgaria保加利亚:
-                case M49.RepublicOfMoldova摩尔多瓦共和国:
-                case M49.SyrianArabRepublic阿拉伯叙利亚共和国:
+                case M49.Moldova摩尔多瓦:
+                case M49.Syrian叙利亚:
                 case M49.Romania罗马尼亚:
                 case M49.Ukraine乌克兰:
                 case M49.AlandIslands奥兰群岛:
@@ -229,10 +229,10 @@ namespace OYMLCN.GlobalRegion
                 case M49.Turkey土耳其:
                 case M49.Yemen也门:
                 case M49.Belarus白俄罗斯:
-                case M49.RussianFederation俄罗斯联邦:
+                case M49.Russia俄罗斯:
                     return 3;
                 // UTC/GMT +3.5小时
-                case M49.IslamicRepublicOfIran伊朗伊斯兰共和国:
+                case M49.Iran伊朗:
                     return 3.5;
                 // UTC/GMT +4小时 (东四区)
                 case M49.Mauritius毛里求斯:
@@ -242,7 +242,7 @@ namespace OYMLCN.GlobalRegion
                 case M49.Azerbaijan阿塞拜疆:
                 case M49.Georgia格鲁吉亚:
                 case M49.Oman阿曼:
-                case M49.UnitedArabEmirates阿拉伯联合酋长国:
+                case M49.UAE阿联酋:
                     return 4;
                 // UTC/GMT +4.5小时
                 case M49.Afghanistan阿富汗:
@@ -273,24 +273,24 @@ namespace OYMLCN.GlobalRegion
                 // UTC/GMT +7小时 (东七区)
                 case M49.Cambodia柬埔寨:
                 case M49.Indonesia印度尼西亚:
-                case M49.LaoPeoplesDemocraticRepublic老挝人民民主共和国:
+                case M49.Laos老挝:
                 case M49.Thailand泰国:
                 case M49.VietNam越南:
                     return 7;
                 // UTC/GMT +8小时 (东八区)
                 case M49.China中国:
-                case M49.ChinaHongKongSpecialAdministrativeRegion中国香港特别行政区:
-                case M49.ChinaMacaoSpecialAdministrativeRegion中国澳门特别行政区:
+                case M49.HongKong香港:
+                case M49.Macao澳门:
                 case M49.Mongolia蒙古:
-                case M49.BruneiDarussalam文莱达鲁萨兰国:
+                case M49.Brunei文莱:
                 case M49.Malaysia马来西亚:
                 case M49.Philippines菲律宾:
                 case M49.Singapore新加坡:
                     return 8;
                 // UTC/GMT +9小时 (东九区)
                 case M49.Japan日本:
-                case M49.DemocraticPeoplesRepublicOfKorea朝鲜民主主义人民共和国:
-                case M49.RepublicOfKorea大韩民国:
+                case M49.KoreaDPR朝鲜:
+                case M49.Korea韩国:
                 case M49.TimorLeste东帝汶:
                 case M49.Palau帕劳:
                     return 9;

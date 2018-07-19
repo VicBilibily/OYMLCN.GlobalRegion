@@ -1,3 +1,4 @@
+#pragma warning disable CS1591 // 缺少对公共可见类型或成员的 XML 注释
 using System;
 
 namespace OYMLCN.GlobalRegion
@@ -149,7 +150,7 @@ namespace OYMLCN.GlobalRegion
 
         // SouthAmerica南美洲
         Argentina阿根廷 = 032,
-        PlurinationalStateOfBolivia多民族玻利维亚国 = 068,
+        Bolivia玻利维亚 = 068,
         Brazil巴西 = 076,
         Chile智利 = 152,
         Colombia哥伦比亚 = 170,
@@ -161,7 +162,7 @@ namespace OYMLCN.GlobalRegion
         Peru秘鲁 = 604,
         Suriname苏里南 = 740,
         Uruguay乌拉圭 = 858,
-        BolivarianRepublicOfVenezuela委内瑞拉玻利瓦尔共和国 = 862,
+        Venezuela委内瑞拉 = 862,
 
         // NorthernAmerica北美地区
         Bermuda百慕大 = 060,
@@ -179,29 +180,29 @@ namespace OYMLCN.GlobalRegion
 
         // EasternAsia东亚
         China中国 = 156,
-        ChinaHongKongSpecialAdministrativeRegion中国香港特别行政区 = 344,
-        ChinaMacaoSpecialAdministrativeRegion中国澳门特别行政区 = 446,
-        DemocraticPeoplesRepublicOfKorea朝鲜民主主义人民共和国 = 408,
+        HongKong香港 = 344,
+        Macao澳门 = 446,
+        KoreaDPR朝鲜 = 408,
         Japan日本 = 392,
         Mongolia蒙古 = 496,
-        RepublicOfKorea大韩民国 = 410,
+        Korea韩国 = 410,
 
         // SouthernAsia南亚
         Afghanistan阿富汗 = 004,
         Bangladesh孟加拉国 = 50,
         Bhutan不丹 = 064,
         India印度 = 356,
-        IslamicRepublicOfIran伊朗伊斯兰共和国 = 364,
+        Iran伊朗 = 364,
         Maldives马尔代夫 = 462,
         Nepal尼泊尔 = 524,
         Pakistan巴基斯坦 = 586,
         SriLanka斯里兰卡 = 144,
 
         // SouthEasternAsia东南亚
-        BruneiDarussalam文莱达鲁萨兰国 = 096,
+        Brunei文莱 = 096,
         Cambodia柬埔寨 = 116,
         Indonesia印度尼西亚 = 360,
-        LaoPeoplesDemocraticRepublic老挝人民民主共和国 = 418,
+        Laos老挝 = 418,
         Malaysia马来西亚 = 458,
         Myanmar缅甸 = 104,
         Philippines菲律宾 = 608,
@@ -224,21 +225,21 @@ namespace OYMLCN.GlobalRegion
         Oman阿曼 = 512,
         Qatar卡塔尔 = 634,
         SaudiArabia沙特阿拉伯 = 682,
-        StateOfPalestine巴勒斯坦国 = 275,
-        SyrianArabRepublic阿拉伯叙利亚共和国 = 760,
+        Palestine巴勒斯坦 = 275,
+        Syrian叙利亚 = 760,
         Turkey土耳其 = 792,
-        UnitedArabEmirates阿拉伯联合酋长国 = 784,
+        UAE阿联酋 = 784,
         Yemen也门 = 887,
 
         // EasternEurope东欧
         Belarus白俄罗斯 = 112,
         Bulgaria保加利亚 = 100,
-        CzechRepublic捷克共和国 = 203,
+        Czech捷克 = 203,
         Hungary匈牙利 = 348,
         Poland波兰 = 616,
-        RepublicOfMoldova摩尔多瓦共和国 = 498,
+        Moldova摩尔多瓦 = 498,
         Romania罗马尼亚 = 642,
-        RussianFederation俄罗斯联邦 = 643,
+        Russia俄罗斯 = 643,
         Slovakia斯洛伐克 = 703,
         Ukraine乌克兰 = 804,
 

@@ -150,7 +150,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Panama巴拿马 , M49.CentralAmerica中美洲 },
 
             { M49.Argentina阿根廷 , M49.SouthAmerica南美洲 },
-            { M49.PlurinationalStateOfBolivia多民族玻利维亚国 , M49.SouthAmerica南美洲 },
+            { M49.Bolivia玻利维亚 , M49.SouthAmerica南美洲 },
             { M49.Brazil巴西 , M49.SouthAmerica南美洲 },
             { M49.Chile智利 , M49.SouthAmerica南美洲 },
             { M49.Colombia哥伦比亚 , M49.SouthAmerica南美洲 },
@@ -162,7 +162,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Peru秘鲁 , M49.SouthAmerica南美洲 },
             { M49.Suriname苏里南 , M49.SouthAmerica南美洲 },
             { M49.Uruguay乌拉圭 , M49.SouthAmerica南美洲 },
-            { M49.BolivarianRepublicOfVenezuela委内瑞拉玻利瓦尔共和国 , M49.SouthAmerica南美洲 },
+            { M49.Venezuela委内瑞拉 , M49.SouthAmerica南美洲 },
 
             { M49.Bermuda百慕大 , M49.NorthernAmerica北美地区 },
             { M49.Canada加拿大 , M49.NorthernAmerica北美地区 },
@@ -180,27 +180,27 @@ namespace OYMLCN.GlobalRegion
             { M49.Uzbekistan乌兹别克斯坦 , M49.CentralAsia中亚 },
 
             { M49.China中国 , M49.EasternAsia东亚 },
-            { M49.ChinaHongKongSpecialAdministrativeRegion中国香港特别行政区 , M49.EasternAsia东亚 },
-            { M49.ChinaMacaoSpecialAdministrativeRegion中国澳门特别行政区 , M49.EasternAsia东亚 },
-            { M49.DemocraticPeoplesRepublicOfKorea朝鲜民主主义人民共和国 , M49.EasternAsia东亚 },
+            { M49.HongKong香港 , M49.EasternAsia东亚 },
+            { M49.Macao澳门 , M49.EasternAsia东亚 },
+            { M49.KoreaDPR朝鲜 , M49.EasternAsia东亚 },
             { M49.Japan日本 , M49.EasternAsia东亚 },
             { M49.Mongolia蒙古 , M49.EasternAsia东亚 },
-            { M49.RepublicOfKorea大韩民国 , M49.EasternAsia东亚 },
+            { M49.Korea韩国 , M49.EasternAsia东亚 },
 
             { M49.Afghanistan阿富汗 , M49.SouthernAsia南亚 },
             { M49.Bangladesh孟加拉国 , M49.SouthernAsia南亚 },
             { M49.Bhutan不丹 , M49.SouthernAsia南亚 },
             { M49.India印度 , M49.SouthernAsia南亚 },
-            { M49.IslamicRepublicOfIran伊朗伊斯兰共和国 , M49.SouthernAsia南亚 },
+            { M49.Iran伊朗 , M49.SouthernAsia南亚 },
             { M49.Maldives马尔代夫 , M49.SouthernAsia南亚 },
             { M49.Nepal尼泊尔 , M49.SouthernAsia南亚 },
             { M49.Pakistan巴基斯坦 , M49.SouthernAsia南亚 },
             { M49.SriLanka斯里兰卡 , M49.SouthernAsia南亚 },
 
-            { M49.BruneiDarussalam文莱达鲁萨兰国 , M49.SouthEasternAsia东南亚 },
+            { M49.Brunei文莱 , M49.SouthEasternAsia东南亚 },
             { M49.Cambodia柬埔寨 , M49.SouthEasternAsia东南亚 },
             { M49.Indonesia印度尼西亚 , M49.SouthEasternAsia东南亚 },
-            { M49.LaoPeoplesDemocraticRepublic老挝人民民主共和国 , M49.SouthEasternAsia东南亚 },
+            { M49.Laos老挝 , M49.SouthEasternAsia东南亚 },
             { M49.Malaysia马来西亚 , M49.SouthEasternAsia东南亚 },
             { M49.Myanmar缅甸 , M49.SouthEasternAsia东南亚 },
             { M49.Philippines菲律宾 , M49.SouthEasternAsia东南亚 },
@@ -222,10 +222,10 @@ namespace OYMLCN.GlobalRegion
             { M49.Oman阿曼 , M49.WesternAsia西亚 },
             { M49.Qatar卡塔尔 , M49.WesternAsia西亚 },
             { M49.SaudiArabia沙特阿拉伯 , M49.WesternAsia西亚 },
-            { M49.StateOfPalestine巴勒斯坦国 , M49.WesternAsia西亚 },
-            { M49.SyrianArabRepublic阿拉伯叙利亚共和国 , M49.WesternAsia西亚 },
+            { M49.Palestine巴勒斯坦 , M49.WesternAsia西亚 },
+            { M49.Syrian叙利亚 , M49.WesternAsia西亚 },
             { M49.Turkey土耳其 , M49.WesternAsia西亚 },
-            { M49.UnitedArabEmirates阿拉伯联合酋长国 , M49.WesternAsia西亚 },
+            { M49.UAE阿联酋 , M49.WesternAsia西亚 },
             { M49.Yemen也门 , M49.WesternAsia西亚 },
 
         };
@@ -233,12 +233,12 @@ namespace OYMLCN.GlobalRegion
         {
             { M49.Belarus白俄罗斯 , M49.EasternEurope东欧 },
             { M49.Bulgaria保加利亚 , M49.EasternEurope东欧 },
-            { M49.CzechRepublic捷克共和国 , M49.EasternEurope东欧 },
+            { M49.Czech捷克 , M49.EasternEurope东欧 },
             { M49.Hungary匈牙利 , M49.EasternEurope东欧 },
             { M49.Poland波兰 , M49.EasternEurope东欧 },
-            { M49.RepublicOfMoldova摩尔多瓦共和国 , M49.EasternEurope东欧 },
+            { M49.Moldova摩尔多瓦 , M49.EasternEurope东欧 },
             { M49.Romania罗马尼亚 , M49.EasternEurope东欧 },
-            { M49.RussianFederation俄罗斯联邦 , M49.EasternEurope东欧 },
+            { M49.Russia俄罗斯 , M49.EasternEurope东欧 },
             { M49.Slovakia斯洛伐克 , M49.EasternEurope东欧 },
             { M49.Ukraine乌克兰 , M49.EasternEurope东欧 },
 
@@ -396,27 +396,27 @@ namespace OYMLCN.GlobalRegion
             { M49.AntiguaandBarbuda安提瓜和巴布达 , "Antigua_and_Barbuda" },
             { M49.Aruba阿鲁巴 , "Aruba" },
             { M49.Bahamas巴哈马 , "Bahamas" },
-            { M49.Barbados巴巴多斯 , "Barbados" },
+            { M49.Barbados巴巴多斯 , "Barbados" },//5
             { M49.BonaireSaintEustatiusAndSaba博奈尔圣尤斯特歇斯和萨巴 , "Sint_Eustatius" },
             { M49.BritishVirginIslands英属维尔京群岛 , "Virgin_Gorda_Island" },
             { M49.CaymanIslands开曼群岛 , "Cayman_Islands" },
             { M49.Cuba古巴 , "Cuba" },
-            { M49.Curaçao库拉索 , "Curaçao" },
+            { M49.Curaçao库拉索 , "Curaçao" },//10
             { M49.Dominica多米尼克 , "Dominica" },
             { M49.DominicanRepublic多米尼加共和国 , "Dominican_Republic" },
             { M49.Grenada格林纳达 , "Grenada" },
             { M49.Guadeloupe瓜德罗普 , "Guadeloupe" },
-            { M49.Haiti海地 , "Haiti" },
+            { M49.Haiti海地 , "Haiti" },//15
             { M49.Jamaica牙买加 , "Jamaica" },
             { M49.Martinique马提尼克 , "Martinique" },
             { M49.Montserrat蒙特塞拉特 , "Montserrat" },
             { M49.PuertoRico波多黎各 , "Puerto_Rico" },
-            { M49.SaintBarts圣巴泰勒米 , "Saint_Barthélemy" },
+            { M49.SaintBarts圣巴泰勒米 , "Saint_Barthélemy" },//20
             { M49.SaintKittsandNevis圣基茨和尼维斯 , "Saint_Kitts_and_Nevis" },
             { M49.SaintLucia圣卢西亚 , "Saint_Lucia" },
             { M49.SaintMartin圣马丁法属部分 , "Saint_Martin" },
             { M49.SaintVincentandtheGrenadines圣文森特和格林纳丁斯 , "Saint_Vincent_and_the_Grenadines" },
-            { M49.SintMaarten圣马丁荷属部分 , "Sint_Maarten" },
+            { M49.SintMaarten圣马丁荷属部分 , "Sint_Maarten" },//25
             { M49.TrinidadandTobago特立尼达和多巴哥 , "Trinidad_and_Tobago" },
             { M49.TurksandCaicosIslands特克斯和凯科斯群岛 , "Turks_and_Caicos_Islands" },
             { M49.UnitedStatesVirginIslands美属维尔京群岛 , "U.S._Virgin_Islands" },
@@ -433,19 +433,19 @@ namespace OYMLCN.GlobalRegion
 
             // SouthAmerica南美洲
             { M49.Argentina阿根廷 , "Argentina" },
-            { M49.PlurinationalStateOfBolivia多民族玻利维亚国 , "Bolivia" },
+            { M49.Bolivia玻利维亚 , "Bolivia" },
             { M49.Brazil巴西 , "Brazil" },
             { M49.Chile智利 , "Chile" },
-            { M49.Colombia哥伦比亚 , "Colombia" },
+            { M49.Colombia哥伦比亚 , "Colombia" },//5
             { M49.Ecuador厄瓜多尔 , "Ecuador" },
             { M49.FalklandIslandsMalvinas福克兰群岛马尔维纳斯群岛 , "Falkland_Islands" },
             { M49.FrenchGuiana法属圭亚那 , "French_Guiana" },
             { M49.Guyana圭亚那 , "Guyana" },
-            { M49.Paraguay巴拉圭 , "Paraguay" },
+            { M49.Paraguay巴拉圭 , "Paraguay" },//10
             { M49.Peru秘鲁 , "Peru" },
             { M49.Suriname苏里南 , "Suriname" },
             { M49.Uruguay乌拉圭 , "Uruguay" },
-            { M49.BolivarianRepublicOfVenezuela委内瑞拉玻利瓦尔共和国 , "Venezuela" },
+            { M49.Venezuela委内瑞拉 , "Venezuela" },
 
             // NorthernAmerica北美地区
             { M49.Bermuda百慕大 , "Bermuda" },
@@ -463,35 +463,35 @@ namespace OYMLCN.GlobalRegion
 
             // EasternAsia东亚
             { M49.China中国 , "China" },
-            { M49.ChinaHongKongSpecialAdministrativeRegion中国香港特别行政区 , "Hong_Kong" },
-            { M49.ChinaMacaoSpecialAdministrativeRegion中国澳门特别行政区 , "Macao" },
-            { M49.DemocraticPeoplesRepublicOfKorea朝鲜民主主义人民共和国 , "North_Korea" },
+            { M49.HongKong香港 , "Hong_Kong" },
+            { M49.Macao澳门 , "Macao" },
+            { M49.KoreaDPR朝鲜 , "North_Korea" },
             { M49.Japan日本 , "Japan" },
             { M49.Mongolia蒙古 , "Mongolia" },
-            { M49.RepublicOfKorea大韩民国 , "South_Korea" },
+            { M49.Korea韩国 , "South_Korea" },
 
             // SouthernAsia南亚
             { M49.Afghanistan阿富汗 , "Afghanistan" },
             { M49.Bangladesh孟加拉国 , "Bangladesh" },
             { M49.Bhutan不丹 , "Bhutan" },
             { M49.India印度 , "India" },
-            { M49.IslamicRepublicOfIran伊朗伊斯兰共和国 , "Iran" },
+            { M49.Iran伊朗 , "Iran" },//5
             { M49.Maldives马尔代夫 , "Maldives" },
             { M49.Nepal尼泊尔 , "Nepal" },
             { M49.Pakistan巴基斯坦 , "Pakistan" },
             { M49.SriLanka斯里兰卡 , "Sri_Lanka" },
 
             // SouthEasternAsia东南亚
-            { M49.BruneiDarussalam文莱达鲁萨兰国 , "Brunei" },
+            { M49.Brunei文莱 , "Brunei" },
             { M49.Cambodia柬埔寨 , "Cambodia" },
             { M49.Indonesia印度尼西亚 , "Indonesia" },
-            { M49.LaoPeoplesDemocraticRepublic老挝人民民主共和国 , "Laos" },
-            { M49.Malaysia马来西亚 , "Malaysia" },
+            { M49.Laos老挝 , "Laos" },
+            { M49.Malaysia马来西亚 , "Malaysia" },//5
             { M49.Myanmar缅甸 , "Myanmar" },
             { M49.Philippines菲律宾 , "Philippines" },
             { M49.Singapore新加坡 , "Singapore" },
             { M49.Thailand泰国 , "Thailand" },
-            { M49.TimorLeste东帝汶 , "East_Timor" },
+            { M49.TimorLeste东帝汶 , "East_Timor" },//10
             { M49.VietNam越南 , "Vietnam" },
 
             // WesternAsia西亚
@@ -499,30 +499,30 @@ namespace OYMLCN.GlobalRegion
             { M49.Azerbaijan阿塞拜疆 , "Azerbaijan" },
             { M49.Bahrain巴林 , "Bahrain" },
             { M49.Cyprus塞浦路斯 , "Cyprus" },
-            { M49.Georgia格鲁吉亚 , "Georgia" },
+            { M49.Georgia格鲁吉亚 , "Georgia" },//5
             { M49.Iraq伊拉克 , "Iraq" },
             { M49.Israel以色列 , "Israel" },
             { M49.Jordan约旦 , "Jordan" },
             { M49.Kuwait科威特 , "Kuwait" },
-            { M49.Lebanon黎巴嫩 , "Lebanon" },
+            { M49.Lebanon黎巴嫩 , "Lebanon" },//10
             { M49.Oman阿曼 , "Oman" },
             { M49.Qatar卡塔尔 , "Qatar" },
             { M49.SaudiArabia沙特阿拉伯 , "Saudi_Arabia" },
-            { M49.StateOfPalestine巴勒斯坦国 , "Palestine" },
-            { M49.SyrianArabRepublic阿拉伯叙利亚共和国 , "Syria" },
+            { M49.Palestine巴勒斯坦 , "Palestine" },
+            { M49.Syrian叙利亚 , "Syria" },//15
             { M49.Turkey土耳其 , "Turkey" },
-            { M49.UnitedArabEmirates阿拉伯联合酋长国 , "United_Arab_Emirates" },
+            { M49.UAE阿联酋 , "United_Arab_Emirates" },
             { M49.Yemen也门 , "Yemen" },
 
             // EasternEurope东欧
             { M49.Belarus白俄罗斯 , "Belarus" },
             { M49.Bulgaria保加利亚 , "Bulgaria" },
-            { M49.CzechRepublic捷克共和国 , "Czechia" },
+            { M49.Czech捷克 , "Czechia" },
             { M49.Hungary匈牙利 , "Hungary" },
-            { M49.Poland波兰 , "Poland" },
-            { M49.RepublicOfMoldova摩尔多瓦共和国 , "Moldova" },
+            { M49.Poland波兰 , "Poland" },//5
+            { M49.Moldova摩尔多瓦 , "Moldova" },
             { M49.Romania罗马尼亚 , "Romania" },
-            { M49.RussianFederation俄罗斯联邦 , "Russia" },
+            { M49.Russia俄罗斯 , "Russia" },
             { M49.Slovakia斯洛伐克 , "Slovakia" },
             { M49.Ukraine乌克兰 , "Ukraine" },
 
