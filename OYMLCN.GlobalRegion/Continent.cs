@@ -4,8 +4,14 @@ using System.Text;
 
 namespace OYMLCN.GlobalRegion
 {
+    /// <summary>
+    /// Data
+    /// </summary>
     public static partial class Data
     {
+        /// <summary>
+        /// 大洲
+        /// </summary>
         public static IReadOnlyList<M49> Continent = new List<M49>() {
             M49.Africa非洲,
             M49.Americas美洲,
@@ -13,6 +19,10 @@ namespace OYMLCN.GlobalRegion
             M49.Europe欧洲,
             M49.Oceania大洋洲
         }.AsReadOnly();
+
+        /// <summary>
+        /// 大洲地区
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49> ContinentRegion = new Dictionary<M49, M49>()
         {
             { M49.EasternAfrica东部非洲 , M49.Africa非洲 },
@@ -39,10 +49,13 @@ namespace OYMLCN.GlobalRegion
 
             { M49.AustraliaAndNewZealand澳大利亚和新西兰 , M49.Oceania大洋洲 },
             { M49.Melanesia美拉尼西亚 , M49.Oceania大洋洲 },
-            { M49.Micronesia密克罗尼西亚 , M49.Oceania大洋洲 },
+            { M49.Micronesia密克罗尼西亚联邦 , M49.Oceania大洋洲 },
             { M49.Polynesia波利尼西亚 , M49.Oceania大洋洲 },
         };
 
+        /// <summary>
+        /// Africa非洲
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49> Africa = new Dictionary<M49, M49>()
         {
             { M49.Burundi布隆迪 , M49.EasternAfrica东部非洲 },
@@ -109,6 +122,9 @@ namespace OYMLCN.GlobalRegion
             { M49.Togo多哥 , M49.WesternAfrica西部非洲 },
 
         };
+        /// <summary>
+        /// Americas美洲
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49> Americas = new Dictionary<M49, M49>()
         {
             { M49.Anguilla安圭拉 , M49.Caribbean加勒比地区 },
@@ -171,6 +187,9 @@ namespace OYMLCN.GlobalRegion
             { M49.UnitedStatesOfAmerica美利坚合众国 , M49.NorthernAmerica北美地区 },
 
         };
+        /// <summary>
+        /// Asia亚洲
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49> Asia = new Dictionary<M49, M49>()
         {
             { M49.Kazakhstan哈萨克斯坦 , M49.CentralAsia中亚 },
@@ -229,6 +248,9 @@ namespace OYMLCN.GlobalRegion
             { M49.Yemen也门 , M49.WesternAsia西亚 },
 
         };
+        /// <summary>
+        /// Europe欧洲
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49> Europe = new Dictionary<M49, M49>()
         {
             { M49.Belarus白俄罗斯 , M49.EasternEurope东欧 },
@@ -243,7 +265,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Ukraine乌克兰 , M49.EasternEurope东欧 },
 
             { M49.AlandIslands奥兰群岛 , M49.NorthernEurope北欧 },
-            { M49.ChannelIslands海峡群岛盎格鲁诺曼底群岛 , M49.NorthernEurope北欧 },
+            { M49.ChannelIslands海峡群岛 , M49.NorthernEurope北欧 },
             { M49.Denmark丹麦 , M49.NorthernEurope北欧 },
             { M49.Estonia爱沙尼亚 , M49.NorthernEurope北欧 },
             { M49.FaeroeIslands法罗群岛 , M49.NorthernEurope北欧 },
@@ -259,7 +281,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Sark萨克 , M49.NorthernEurope北欧 },
             { M49.SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛 , M49.NorthernEurope北欧 },
             { M49.Sweden瑞典 , M49.NorthernEurope北欧 },
-            { M49.UnitedKingdomOfGreatBritainandNorthernIreland大不列颠及北爱尔兰联合王国 , M49.NorthernEurope北欧 },
+            { M49.UK英国 , M49.NorthernEurope北欧 },
 
             { M49.Albania阿尔巴尼亚 , M49.SouthernEurope南欧 },
             { M49.Andorra安道尔 , M49.SouthernEurope南欧 },
@@ -276,7 +298,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Serbia塞尔维亚 , M49.SouthernEurope南欧 },
             { M49.Slovenia斯洛文尼亚 , M49.SouthernEurope南欧 },
             { M49.Spain西班牙 , M49.SouthernEurope南欧 },
-            { M49.TheformerYugoslavRepublicOfMacedonia前南斯拉夫马其顿共和国 , M49.SouthernEurope南欧 },
+            { M49.Macedonia马其顿 , M49.SouthernEurope南欧 },
 
             { M49.Austria奥地利 , M49.WesternEurope西欧 },
             { M49.Belgium比利时 , M49.WesternEurope西欧 },
@@ -289,6 +311,9 @@ namespace OYMLCN.GlobalRegion
             { M49.Switzerland瑞士 , M49.WesternEurope西欧 },
 
         };
+        /// <summary>
+        /// Oceania大洋洲
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49> Oceania = new Dictionary<M49, M49>()
         {
             { M49.Australia澳大利亚 , M49.AustraliaAndNewZealand澳大利亚和新西兰 },
@@ -304,7 +329,7 @@ namespace OYMLCN.GlobalRegion
             { M49.Guam关岛 , M49.Micronesia密克罗尼西亚 },
             { M49.Kiribati基里巴斯 , M49.Micronesia密克罗尼西亚 },
             { M49.MarshallIslands马绍尔群岛 , M49.Micronesia密克罗尼西亚 },
-            { M49.FederatedStatesOfMicronesia密克罗尼西亚联邦 , M49.Micronesia密克罗尼西亚 },
+            { M49.Micronesia密克罗尼西亚联邦 , M49.Micronesia密克罗尼西亚 },
             { M49.Nauru瑙鲁 , M49.Micronesia密克罗尼西亚 },
             { M49.NorthernMarianaIslands北马里亚纳群岛 , M49.Micronesia密克罗尼西亚 },
             { M49.Palau帕劳 , M49.Micronesia密克罗尼西亚 },
@@ -322,6 +347,9 @@ namespace OYMLCN.GlobalRegion
 
         };
 
+        /// <summary>
+        /// Tims.Is 查询对应值
+        /// </summary>
         public static IReadOnlyDictionary<M49, string> TimeIsKey = new Dictionary<M49, string>() {
             // EasternAfrica东部非洲
             { M49.Burundi布隆迪 , "Burundi" },
@@ -528,48 +556,48 @@ namespace OYMLCN.GlobalRegion
 
             // NorthernEurope北欧
             { M49.AlandIslands奥兰群岛 , "Åland" },
-            { M49.ChannelIslands海峡群岛盎格鲁诺曼底群岛 , "Guernsey_Airport" },
+            { M49.ChannelIslands海峡群岛 , "Guernsey_Airport" },
             { M49.Denmark丹麦 , "Denmark" },
             { M49.Estonia爱沙尼亚 , "Estonia" },
-            { M49.FaeroeIslands法罗群岛 , "Faroe_Islands" },
+            { M49.FaeroeIslands法罗群岛 , "Faroe_Islands" },//5
             { M49.Finland芬兰 , "Finland" },
             { M49.Guernsey根西 , "Guernsey" },
             { M49.Iceland冰岛 , "Iceland" },
             { M49.Ireland爱尔兰 , "Ireland" },
-            { M49.IsleofMan马恩岛 , "Isle_of_Man" },
+            { M49.IsleofMan马恩岛 , "Isle_of_Man" },//10
             { M49.Jersey泽西 , "Jersey" },
-            { M49.Latvia拉托维亚 , "Latviešu_Stiglava" },
+            { M49.Latvia拉托维亚 , "Latvia" },
             { M49.Lithuania立陶宛 , "Lithuania" },
             { M49.Norway挪威 , "Norway" },
-            { M49.Sark萨克 , "Guernsey_Airport" },
+            { M49.Sark萨克 , "Sark" },//15
             { M49.SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛 , "Svalbard" },
             { M49.Sweden瑞典 , "Sweden" },
-            { M49.UnitedKingdomOfGreatBritainandNorthernIreland大不列颠及北爱尔兰联合王国 , "United_Kingdom" },
+            { M49.UK英国 , "United_Kingdom" },
 
             // SouthernEurope南欧
             { M49.Albania阿尔巴尼亚 , "Albania" },
             { M49.Andorra安道尔 , "Andorra" },
             { M49.BosniaandHerzegovina波斯尼亚和黑塞哥维那 , "Bosnia_and_Herzegovina" },
             { M49.Croatia克罗地亚 , "Croatia" },
-            { M49.Gibraltar直布罗陀 , "Gibraltar" },
+            { M49.Gibraltar直布罗陀 , "Gibraltar" },//5
             { M49.Greece希腊 , "Greece" },
             { M49.HolySee圣座 , "Vatican_City" },
             { M49.Italy意大利 , "Italy" },
             { M49.Malta马耳他 , "Malta" },
-            { M49.Montenegro黑山 , "Montenegro" },
+            { M49.Montenegro黑山 , "Montenegro" },//10
             { M49.Portugal葡萄牙 , "Portugal" },
             { M49.SanMarino圣马力诺 , "San_Marino" },
             { M49.Serbia塞尔维亚 , "Serbia" },
             { M49.Slovenia斯洛文尼亚 , "Slovenia" },
-            { M49.Spain西班牙 , "Spain" },
-            { M49.TheformerYugoslavRepublicOfMacedonia前南斯拉夫马其顿共和国 , "Macedonia" },
+            { M49.Spain西班牙 , "Spain" },//15
+            { M49.Macedonia马其顿 , "Macedonia" },
 
             // WesternEurope西欧
             { M49.Austria奥地利 , "Austria" },
             { M49.Belgium比利时 , "Belgium" },
             { M49.France法国 , "France" },
             { M49.Germany德国 , "Germany" },
-            { M49.Liechtenstein列支敦士登 , "Liechtenstein" },
+            { M49.Liechtenstein列支敦士登 , "Liechtenstein" },//5
             { M49.Luxembourg卢森堡 , "Luxembourg" },
             { M49.Monaco摩纳哥 , "Monaco" },
             { M49.Netherlands荷兰 , "Netherlands" },
@@ -591,8 +619,8 @@ namespace OYMLCN.GlobalRegion
             { M49.Guam关岛 , "Guam" },
             { M49.Kiribati基里巴斯 , "Kiribati" },
             { M49.MarshallIslands马绍尔群岛 , "Marshall_Islands" },
-            { M49.FederatedStatesOfMicronesia密克罗尼西亚联邦 , "Micronesia" },
-            { M49.Nauru瑙鲁 , "Nauru" },
+            { M49.Micronesia密克罗尼西亚联邦 , "Micronesia" },
+            { M49.Nauru瑙鲁 , "Nauru" },//5
             { M49.NorthernMarianaIslands北马里亚纳群岛 , "Northern_Mariana_Islands" },
             { M49.Palau帕劳 , "Palau" },
 
@@ -601,12 +629,12 @@ namespace OYMLCN.GlobalRegion
             { M49.CookIslands库克群岛 , "Cook_Islands" },
             { M49.FrenchPolynesia法属波利尼西亚 , "French_Polynesia" },
             { M49.Niue纽埃 , "Niue" },
-            { M49.Pitcairn皮特凯恩 , "Pitcairn_Islands" },
+            { M49.Pitcairn皮特凯恩 , "Pitcairn_Islands" },//5
             { M49.Samoa萨摩亚 , "Samoa" },
             { M49.Tokelau托克劳 , "Tokelau" },
             { M49.Tonga汤加 , "Tonga" },
             { M49.Tuvalu图瓦卢 , "Tuvalu" },
-            { M49.WallisandFutunaIslands瓦利斯和富图纳群岛 , "Wallis_and_Futuna" },
+            { M49.WallisandFutunaIslands瓦利斯和富图纳群岛 , "Wallis_and_Futuna" },//10
 
         };
 

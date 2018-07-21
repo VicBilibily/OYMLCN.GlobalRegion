@@ -245,7 +245,7 @@ namespace OYMLCN.GlobalRegion
 
         // NorthernEurope北欧
         AlandIslands奥兰群岛 = 248,
-        ChannelIslands海峡群岛盎格鲁诺曼底群岛 = 830,
+        ChannelIslands海峡群岛 = 830,
         Denmark丹麦 = 208,
         Estonia爱沙尼亚 = 233,
         FaeroeIslands法罗群岛 = 234,
@@ -261,7 +261,7 @@ namespace OYMLCN.GlobalRegion
         Sark萨克 = 680,
         SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛 = 744,
         Sweden瑞典 = 752,
-        UnitedKingdomOfGreatBritainandNorthernIreland大不列颠及北爱尔兰联合王国 = 826,
+        UK英国 = 826,
 
         // SouthernEurope南欧
         Albania阿尔巴尼亚 = 008,
@@ -279,7 +279,7 @@ namespace OYMLCN.GlobalRegion
         Serbia塞尔维亚 = 688,
         Slovenia斯洛文尼亚 = 705,
         Spain西班牙 = 724,
-        TheformerYugoslavRepublicOfMacedonia前南斯拉夫马其顿共和国 = 807,
+        Macedonia马其顿 = 807,
 
         // WesternEurope西欧
         Austria奥地利 = 040,
@@ -308,7 +308,7 @@ namespace OYMLCN.GlobalRegion
         Guam关岛 = 316,
         Kiribati基里巴斯 = 296,
         MarshallIslands马绍尔群岛 = 584,
-        FederatedStatesOfMicronesia密克罗尼西亚联邦 = 583,
+        Micronesia密克罗尼西亚联邦 = 583,
         Nauru瑙鲁 = 520,
         NorthernMarianaIslands北马里亚纳群岛 = 580,
         Palau帕劳 = 585,

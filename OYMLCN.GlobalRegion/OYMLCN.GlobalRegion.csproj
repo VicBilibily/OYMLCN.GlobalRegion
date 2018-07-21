@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFrameworks>net461;netstandard2.0</TargetFrameworks>
     <Description>世界地理区域划分集合
 OYMLCN.GlobalRegion.M49 联合国地理区划列表
 OYMLCN.GlobalRegion.Data 大洲国家和地区数据集

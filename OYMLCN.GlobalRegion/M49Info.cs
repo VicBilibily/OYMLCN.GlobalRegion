@@ -53,8 +53,14 @@ namespace OYMLCN.GlobalRegion
 
     }
 
+    /// <summary>
+    /// Data
+    /// </summary>
     public static partial class Data
     {
+        /// <summary>
+        /// M49Infos
+        /// </summary>
         public static IReadOnlyDictionary<M49, M49Info> M49Infos = new Dictionary<M49, M49Info>()
         {
 #region EasternAfrica东部非洲
@@ -1235,8 +1241,8 @@ namespace OYMLCN.GlobalRegion
                 ChineseFullName = "哈萨克斯坦共和国",
                 UTCTimeSpan = new TimeSpan(6,0,0)
             } },
-            { M49.Kazakhstan哈萨克斯坦 , new M49Info(){
-                M49 = M49.Kazakhstan哈萨克斯坦,
+            { M49.Kyrgyzstan吉尔吉斯斯坦 , new M49Info(){
+                M49 = M49.Kyrgyzstan吉尔吉斯斯坦,
                 ISO3166 = "KG",
                 CallingCode = "+996",
                 ShortName = "Kyrgyzstan",
@@ -1847,10 +1853,713 @@ namespace OYMLCN.GlobalRegion
             } },
 #endregion
             
+#region NorthernEurope北欧
+            // NorthernEurope北欧
+            { M49.AlandIslands奥兰群岛 , new M49Info(){
+                M49 = M49.AlandIslands奥兰群岛,
+                ISO3166 = "AX",
+                CallingCode = "+358",
+                ShortName = "Aland Islands",
+                FullName = "Åland Islands",
+                ChineseShortName = "奥兰群岛",
+                ChineseFullName = "奥兰群岛",
+                UTCTimeSpan = new TimeSpan(2,0,0)
+            } },
+            { M49.ChannelIslands海峡群岛 , new M49Info(){
+                M49 = M49.ChannelIslands海峡群岛,
+                ISO3166 = "-",
+                CallingCode = "+044",
+                ShortName = "Channel Islands",
+                FullName = "Channel Islands",
+                ChineseShortName = "海峡群岛",
+                ChineseFullName = "海峡群岛-盎格鲁诺曼底群岛",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+            { M49.Denmark丹麦 , new M49Info(){
+                M49 = M49.Denmark丹麦,
+                ISO3166 = "DK",
+                CallingCode = "+045/+298/+299",
+                ShortName = "Denmark",
+                FullName = "Kingdom of Denmark",
+                ChineseShortName = "丹麦",
+                ChineseFullName = "丹麦王国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Estonia爱沙尼亚 , new M49Info(){
+                M49 = M49.Estonia爱沙尼亚,
+                ISO3166 = "EE",
+                CallingCode = "+372",
+                ShortName = "Estonia",
+                FullName = "Republic of Estonia",
+                ChineseShortName = "爱沙尼亚",
+                ChineseFullName = "爱沙尼亚共和国",
+                UTCTimeSpan = new TimeSpan(2,0,0)
+            } },
+            { M49.FaeroeIslands法罗群岛 , new M49Info(){
+                M49 = M49.FaeroeIslands法罗群岛,
+                ISO3166 = "FO",
+                CallingCode = "+298",
+                ShortName = "Faeroe Islands",
+                FullName = "Faeroe Islands",
+                ChineseShortName = "法罗群岛",
+                ChineseFullName = "法罗群岛",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },//5
+            { M49.Finland芬兰 , new M49Info(){
+                M49 = M49.Finland芬兰,
+                ISO3166 = "FI",
+                CallingCode = "+358",
+                ShortName = "Finland",
+                FullName = "Republic of Finland",
+                ChineseShortName = "芬兰",
+                ChineseFullName = "芬兰共和国",
+                UTCTimeSpan = new TimeSpan(2,0,0)
+            } },
+            { M49.Guernsey根西 , new M49Info(){
+                M49 = M49.Guernsey根西,
+                ISO3166 = "GG",
+                CallingCode = "+044",
+                ShortName = "Guernsey",
+                FullName = "Guernsey",
+                ChineseShortName = "根西",
+                ChineseFullName = "根西",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+            { M49.Iceland冰岛 , new M49Info(){
+                M49 = M49.Iceland冰岛,
+                ISO3166 = "IS",
+                CallingCode = "+354",
+                ShortName = "Iceland",
+                FullName = "Republic of Iceland",
+                ChineseShortName = "冰岛",
+                ChineseFullName = "冰岛共和国",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+            { M49.Ireland爱尔兰 , new M49Info(){
+                M49 = M49.Ireland爱尔兰,
+                ISO3166 = "IE",
+                CallingCode = "+353",
+                ShortName = "Ireland",
+                FullName = "Republic of Ireland",
+                ChineseShortName = "爱尔兰",
+                ChineseFullName = "爱尔兰共和国",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+            { M49.IsleofMan马恩岛 , new M49Info(){
+                M49 = M49.Ireland爱尔兰,
+                ISO3166 = "IM",
+                CallingCode = "+044",
+                ShortName = "Isle of Man",
+                FullName = "Isle of Man",
+                ChineseShortName = "马恩岛",
+                ChineseFullName = "马恩岛",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },//10
+            { M49.Jersey泽西 , new M49Info(){
+                M49 = M49.Jersey泽西,
+                ISO3166 = "JE",
+                CallingCode = "+044",
+                ShortName = "Jersey",
+                FullName = "Bailiwick of Jersey",
+                ChineseShortName = "泽西",
+                ChineseFullName = "泽西行政区",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+            { M49.Latvia拉托维亚 , new M49Info(){
+                M49 = M49.Latvia拉托维亚,
+                ISO3166 = "LV",
+                CallingCode = "+371",
+                ShortName = "Latvia",
+                FullName = "Republic of Latvia",
+                ChineseShortName = "拉托维亚",
+                ChineseFullName = "拉脱维亚共和国",
+                UTCTimeSpan = new TimeSpan(2,0,0)
+            } },
+            { M49.Lithuania立陶宛 , new M49Info(){
+                M49 = M49.Lithuania立陶宛,
+                ISO3166 = "LT",
+                CallingCode = "+370",
+                ShortName = "Lithuania",
+                FullName = "Republic of Lithuania",
+                ChineseShortName = "立陶宛",
+                ChineseFullName = "立陶宛共和国",
+                UTCTimeSpan = new TimeSpan(2,0,0)
+            } },
+            { M49.Norway挪威 , new M49Info(){
+                M49 = M49.Norway挪威,
+                ISO3166 = "NO",
+                CallingCode = "+047",
+                ShortName = "Norway",
+                FullName = "Kingdom of Norway",
+                ChineseShortName = "挪威",
+                ChineseFullName = "挪威王国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Sark萨克 , new M49Info(){
+                M49 = M49.Sark萨克,
+                ISO3166 = "-",
+                CallingCode = "+044-1481",
+                ShortName = "Sark",
+                FullName = "Sark",
+                ChineseShortName = "萨克",
+                ChineseFullName = "萨克",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },//15
+            { M49.SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛 , new M49Info(){
+                M49 = M49.SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛,
+                ISO3166 = "NO-21/22",
+                CallingCode = "+047",
+                ShortName = "Svalbard and Jan Mayen Islands",
+                FullName = "Svalbard and Jan Mayen Islands",
+                ChineseShortName = "斯瓦尔巴群岛和扬马延岛",
+                ChineseFullName = "斯瓦尔巴群岛和扬马延岛",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Sweden瑞典 , new M49Info(){
+                M49 = M49.Sweden瑞典,
+                ISO3166 = "SE",
+                CallingCode = "+046",
+                ShortName = "Sweden",
+                FullName = "Kingdom of Sweden",
+                ChineseShortName = "瑞典",
+                ChineseFullName = "瑞典王国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.UK英国 , new M49Info(){
+                M49 = M49.UK英国,
+                ISO3166 = "GB",
+                CallingCode = "+044",
+                ShortName = "UK",
+                FullName = "United Kingdom of Great Britain and Northern Ireland",
+                ChineseShortName = "英国",
+                ChineseFullName = "大不列颠及北爱尔兰联合王国",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+#endregion
 
+#region SouthernEurope南欧
+            // SouthernEurope南欧
+            { M49.Albania阿尔巴尼亚 , new M49Info(){
+                M49 = M49.Albania阿尔巴尼亚,
+                ISO3166 = "AL",
+                CallingCode = "+355",
+                ShortName = "Albania",
+                FullName = "Republic of Albania",
+                ChineseShortName = "阿尔巴尼亚",
+                ChineseFullName = "阿尔巴尼亚共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Andorra安道尔 , new M49Info(){
+                M49 = M49.Andorra安道尔,
+                ISO3166 = "AD",
+                CallingCode = "+376",
+                ShortName = "Andorra",
+                FullName = "Principality of Andorra",
+                ChineseShortName = "安道尔",
+                ChineseFullName = "安道尔公国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.BosniaandHerzegovina波斯尼亚和黑塞哥维那 , new M49Info(){
+                M49 = M49.BosniaandHerzegovina波斯尼亚和黑塞哥维那,
+                ISO3166 = "BA",
+                CallingCode = "+387",
+                ShortName = "Bosnia and Herzegovina",
+                FullName = "Bosnia and Herzegovina",
+                ChineseShortName = "波斯尼亚和黑塞哥维那",
+                ChineseFullName = "波斯尼亚和黑塞哥维那",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Croatia克罗地亚 , new M49Info(){
+                M49 = M49.Croatia克罗地亚,
+                ISO3166 = "HR",
+                CallingCode = "+385",
+                ShortName = "Croatia",
+                FullName = "Republic of Croatia",
+                ChineseShortName = "克罗地亚",
+                ChineseFullName = "克罗地亚共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Gibraltar直布罗陀 , new M49Info(){
+                M49 = M49.Gibraltar直布罗陀,
+                ISO3166 = "GI",
+                CallingCode = "+350",
+                ShortName = "Gibraltar",
+                FullName = "Gibraltar",
+                ChineseShortName = "直布罗陀",
+                ChineseFullName = "直布罗陀",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },//5
+            { M49.Greece希腊 , new M49Info(){
+                M49 = M49.Greece希腊,
+                ISO3166 = "GR",
+                CallingCode = "+030",
+                ShortName = "Greece",
+                FullName = "Hellenic Republic",
+                ChineseShortName = "希腊",
+                ChineseFullName = "希腊共和国",
+                UTCTimeSpan = new TimeSpan(2,0,0)
+            } },
+            { M49.HolySee圣座 , new M49Info(){
+                M49 = M49.HolySee圣座,
+                ISO3166 = "VA",
+                CallingCode = "+379",
+                ShortName = "HolySee",
+                FullName = "Holy See (See of Rome)",
+                ChineseShortName = "圣座",
+                ChineseFullName = "圣座(梵蒂冈)",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Italy意大利 , new M49Info(){
+                M49 = M49.Italy意大利,
+                ISO3166 = "IT",
+                CallingCode = "+039",
+                ShortName = "Italy",
+                FullName = "Italian Republic",
+                ChineseShortName = "意大利",
+                ChineseFullName = "意大利共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Malta马耳他 , new M49Info(){
+                M49 = M49.Malta马耳他,
+                ISO3166 = "MT",
+                CallingCode = "+356",
+                ShortName = "Malta",
+                FullName = "Republic of Malta",
+                ChineseShortName = "马耳他",
+                ChineseFullName = "马耳他共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Montenegro黑山 , new M49Info(){
+                M49 = M49.Montenegro黑山,
+                ISO3166 = "ME",
+                CallingCode = "+382",
+                ShortName = "Montenegro",
+                FullName = "Montenegro",
+                ChineseShortName = "黑山",
+                ChineseFullName = "黑山共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },//10
+            { M49.Portugal葡萄牙 , new M49Info(){
+                M49 = M49.Portugal葡萄牙,
+                ISO3166 = "PT",
+                CallingCode = "+351",
+                ShortName = "Portugal",
+                FullName = "Portuguese Republic",
+                ChineseShortName = "葡萄牙",
+                ChineseFullName = "葡萄牙共和国",
+                UTCTimeSpan = new TimeSpan(0,0,0)
+            } },
+            { M49.SanMarino圣马力诺 , new M49Info(){
+                M49 = M49.SanMarino圣马力诺,
+                ISO3166 = "SM",
+                CallingCode = "+378",
+                ShortName = "San Marino",
+                FullName = "Republic of San Marino",
+                ChineseShortName = "圣马力诺",
+                ChineseFullName = "圣马力诺共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Serbia塞尔维亚 , new M49Info(){
+                M49 = M49.Serbia塞尔维亚,
+                ISO3166 = "RS",
+                CallingCode = "+381",
+                ShortName = "Serbia",
+                FullName = "Republic of Serbia",
+                ChineseShortName = "塞尔维亚",
+                ChineseFullName = "塞尔维亚共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Slovenia斯洛文尼亚 , new M49Info(){
+                M49 = M49.Slovenia斯洛文尼亚,
+                ISO3166 = "SI",
+                CallingCode = "+386",
+                ShortName = "Slovenia",
+                FullName = "Republic of Slovenia",
+                ChineseShortName = "斯洛文尼亚",
+                ChineseFullName = "斯洛文尼亚共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Spain西班牙 , new M49Info(){
+                M49 = M49.Spain西班牙,
+                ISO3166 = "ES",
+                CallingCode = "+034",
+                ShortName = "Spain",
+                FullName = "Kingdom of Spain",
+                ChineseShortName = "西班牙",
+                ChineseFullName = "西班牙王国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },//15
+            { M49.Macedonia马其顿 , new M49Info(){
+                M49 = M49.Macedonia马其顿,
+                ISO3166 = "MK",
+                CallingCode = "+389",
+                ShortName = "Republic of Macedonia",
+                FullName = "The former Yugoslav Republic of Macedonia",
+                ChineseShortName = "马其顿共和国",
+                ChineseFullName = "前南斯拉夫马其顿共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+#endregion
+            
+#region WesternEurope西欧
+            // WesternEurope西欧
+            { M49.Austria奥地利 , new M49Info(){
+                M49 = M49.Austria奥地利,
+                ISO3166 = "AT",
+                CallingCode = "+043",
+                ShortName = "Austria",
+                FullName = "Republic of Austria",
+                ChineseShortName = "奥地利",
+                ChineseFullName = "奥地利共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Belgium比利时 , new M49Info(){
+                M49 = M49.Belgium比利时,
+                ISO3166 = "BE",
+                CallingCode = "+032",
+                ShortName = "Belgium",
+                FullName = "Kingdom of Belgium",
+                ChineseShortName = "比利时",
+                ChineseFullName = "比利时王国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.France法国 , new M49Info(){
+                M49 = M49.France法国,
+                ISO3166 = "FR",
+                CallingCode = "+033",
+                ShortName = "France",
+                FullName = "French Republic",
+                ChineseShortName = "法国",
+                ChineseFullName = "法兰西共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Germany德国 , new M49Info(){
+                M49 = M49.Germany德国,
+                ISO3166 = "DE",
+                CallingCode = "+049",
+                ShortName = "Germany",
+                FullName = "Federal Republic of Germany",
+                ChineseShortName = "德国",
+                ChineseFullName = "德意志联邦共和国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Liechtenstein列支敦士登 , new M49Info(){
+                M49 = M49.Liechtenstein列支敦士登,
+                ISO3166 = "LI",
+                CallingCode = "+423",
+                ShortName = "Liechtenstein",
+                FullName = "Principality of Liechtenstein",
+                ChineseShortName = "列支敦士登",
+                ChineseFullName = "列支敦士登公国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },//5
+            { M49.Luxembourg卢森堡 , new M49Info(){
+                M49 = M49.Luxembourg卢森堡,
+                ISO3166 = "LU",
+                CallingCode = "+352",
+                ShortName = "Luxembourg",
+                FullName = "Grand Duchy of Luxembourg",
+                ChineseShortName = "卢森堡",
+                ChineseFullName = "卢森堡大公国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Monaco摩纳哥 , new M49Info(){
+                M49 = M49.Monaco摩纳哥,
+                ISO3166 = "MC",
+                CallingCode = "+377",
+                ShortName = "Monaco",
+                FullName = "Principality of Monaco",
+                ChineseShortName = "摩纳哥",
+                ChineseFullName = "摩纳哥公国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Netherlands荷兰 , new M49Info(){
+                M49 = M49.Netherlands荷兰,
+                ISO3166 = "NL",
+                CallingCode = "+031",
+                ShortName = "Netherlands",
+                FullName = "Kingdom of the Netherlands",
+                ChineseShortName = "荷兰",
+                ChineseFullName = "尼德兰王国",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+            { M49.Switzerland瑞士 , new M49Info(){
+                M49 = M49.Switzerland瑞士,
+                ISO3166 = "CH",
+                CallingCode = "+041",
+                ShortName = "Switzerland",
+                FullName = "Swiss Confederation",
+                ChineseShortName = "瑞士",
+                ChineseFullName = "瑞士联邦",
+                UTCTimeSpan = new TimeSpan(1,0,0)
+            } },
+#endregion
 
+#region AustraliaAndNewZealand澳大利亚和新西兰
+            // AustraliaAndNewZealand澳大利亚和新西兰
+            { M49.Australia澳大利亚 , new M49Info(){
+                M49 = M49.Australia澳大利亚,
+                ISO3166 = "AU",
+                CallingCode = "+061",
+                ShortName = "Australia",
+                FullName = "Commonwealth of Australia",
+                ChineseShortName = "澳大利亚",
+                ChineseFullName = "澳大利亚联邦",
+                UTCTimeSpan = new TimeSpan(11,0,0)
+            } },
+            { M49.NewZealand新西兰 , new M49Info(){
+                M49 = M49.NewZealand新西兰,
+                ISO3166 = "NZ",
+                CallingCode = "+064",
+                ShortName = "New Zealand",
+                FullName = "New Zealand",
+                ChineseShortName = "新西兰",
+                ChineseFullName = "新西兰",
+                UTCTimeSpan = new TimeSpan(12,0,0)
+            } },
+            { M49.NorfolkIsland诺福克岛 , new M49Info(){
+                M49 = M49.NorfolkIsland诺福克岛,
+                ISO3166 = "NF",
+                CallingCode = "+672",
+                ShortName = "Norfolk Island",
+                FullName = "Territory of Norfolk Island",
+                ChineseShortName = "诺福克岛",
+                ChineseFullName = "诺福克岛",
+                UTCTimeSpan = new TimeSpan(11,0,0)
+            } },
+#endregion
 
+#region Melanesia美拉尼西亚
+            // Melanesia美拉尼西亚
+            { M49.Fiji斐济 , new M49Info(){
+                M49 = M49.Fiji斐济,
+                ISO3166 = "FJ",
+                CallingCode = "+679",
+                ShortName = "Fiji",
+                FullName = "Republic of Fiji",
+                ChineseShortName = "斐济",
+                ChineseFullName = "斐济共和国",
+                UTCTimeSpan = new TimeSpan(12,0,0)
+            } },
+            { M49.NewCaledonia新喀里多尼亚 , new M49Info(){
+                M49 = M49.NewCaledonia新喀里多尼亚,
+                ISO3166 = "NC",
+                CallingCode = "+684",
+                ShortName = "New Caledonia",
+                FullName = "New Caledonia",
+                ChineseShortName = "新喀里多尼亚",
+                ChineseFullName = "新喀里多尼亚",
+                UTCTimeSpan = new TimeSpan(11,0,0)
+            } },
+            { M49.PapuaNewGuinea巴布亚新几内亚 , new M49Info(){
+                M49 = M49.PapuaNewGuinea巴布亚新几内亚,
+                ISO3166 = "PG",
+                CallingCode = "+675",
+                ShortName = "Papua New Guinea",
+                FullName = "Independent State of Papua New Guinea",
+                ChineseShortName = "巴布亚新几内亚",
+                ChineseFullName = "巴布亚新几内亚独立国",
+                UTCTimeSpan = new TimeSpan(10,0,0)
+            } },
+            { M49.SolomonIslands所罗门群岛 , new M49Info(){
+                M49 = M49.SolomonIslands所罗门群岛,
+                ISO3166 = "SB",
+                CallingCode = "+677",
+                ShortName = "Solomon Islands",
+                FullName = "Solomon Islands",
+                ChineseShortName = "所罗门群岛",
+                ChineseFullName = "所罗门群岛",
+                UTCTimeSpan = new TimeSpan(11,0,0)
+            } },
+            { M49.Vanuatu瓦努阿图 , new M49Info(){
+                M49 = M49.Vanuatu瓦努阿图,
+                ISO3166 = "VU",
+                CallingCode = "+678",
+                ShortName = "Vanuatu",
+                FullName = "Republic of Vanuatu",
+                ChineseShortName = "瓦努阿图",
+                ChineseFullName = "瓦努阿图共和国",
+                UTCTimeSpan = new TimeSpan(11,0,0)
+            } },
+#endregion
 
+#region Micronesia密克罗尼西亚
+            // Micronesia密克罗尼西亚
+            { M49.Guam关岛 , new M49Info(){
+                M49 = M49.Guam关岛,
+                ISO3166 = "GU",
+                CallingCode = "+001-671",
+                ShortName = "Guam",
+                FullName = "Territory of Guam",
+                ChineseShortName = "关岛",
+                ChineseFullName = "关岛",
+                UTCTimeSpan = new TimeSpan(10,0,0)
+            } },
+            { M49.Kiribati基里巴斯 , new M49Info(){
+                M49 = M49.Kiribati基里巴斯,
+                ISO3166 = "KI",
+                CallingCode = "+686",
+                ShortName = "Kiribati",
+                FullName = "Republic of Kiribati",
+                ChineseShortName = "基里巴斯",
+                ChineseFullName = "基里巴斯共和国",
+                UTCTimeSpan = new TimeSpan(12,0,0)
+            } },
+            { M49.MarshallIslands马绍尔群岛 , new M49Info(){
+                M49 = M49.MarshallIslands马绍尔群岛,
+                ISO3166 = "MH",
+                CallingCode = "+692",
+                ShortName = "Marshall Islands",
+                FullName = "Republic of the Marshall Islands",
+                ChineseShortName = "马绍尔群岛",
+                ChineseFullName = "马绍尔群岛共和国",
+                UTCTimeSpan = new TimeSpan(12,0,0)
+            } },
+            { M49.Micronesia密克罗尼西亚联邦 , new M49Info(){
+                M49 = M49.Micronesia密克罗尼西亚联邦,
+                ISO3166 = "FM",
+                CallingCode = "+691",
+                ShortName = "Micronesia",
+                FullName = "Federated States of Micronesia",
+                ChineseShortName = "密克罗尼西亚",
+                ChineseFullName = "密克罗尼西亚联邦",
+                UTCTimeSpan = new TimeSpan(11,0,0)
+            } },
+            { M49.Nauru瑙鲁 , new M49Info(){
+                M49 = M49.Nauru瑙鲁,
+                ISO3166 = "NR",
+                CallingCode = "+674",
+                ShortName = "Nauru",
+                FullName = "Republic of Nauru",
+                ChineseShortName = "瑙鲁",
+                ChineseFullName = "瑙鲁共和国",
+                UTCTimeSpan = new TimeSpan(12,0,0)
+            } },//5
+            { M49.NorthernMarianaIslands北马里亚纳群岛 , new M49Info(){
+                M49 = M49.NorthernMarianaIslands北马里亚纳群岛,
+                ISO3166 = "MP",
+                CallingCode = "+001-670",
+                ShortName = "Northern Mariana Islands",
+                FullName = "Commonwealth of the Northern Mariana Islands",
+                ChineseShortName = "北马里亚纳群岛",
+                ChineseFullName = "北马里亚纳群岛邦",
+                UTCTimeSpan = new TimeSpan(10,0,0)
+            } },
+            { M49.Palau帕劳 , new M49Info(){
+                M49 = M49.Palau帕劳,
+                ISO3166 = "PW",
+                CallingCode = "+680",
+                ShortName = "Palau",
+                FullName = "Republic of Palau",
+                ChineseShortName = "帕劳(帛琉)",
+                ChineseFullName = "帕劳共和国(帛琉共和国)",
+                UTCTimeSpan = new TimeSpan(9,0,0)
+            } },
+#endregion
+            
+#region Polynesia波利尼西亚
+            // Polynesia波利尼西亚
+            { M49.AmericanSamoa美属萨摩亚 , new M49Info(){
+                M49 = M49.AmericanSamoa美属萨摩亚,
+                ISO3166 = "AS",
+                CallingCode = "+001-684",
+                ShortName = "American Samoa",
+                FullName = "Territory of American Samoa",
+                ChineseShortName = "美属萨摩亚",
+                ChineseFullName = "美属萨摩亚(东萨摩亚)",
+                UTCTimeSpan = new TimeSpan(-11,0,0)
+            } },
+            { M49.CookIslands库克群岛 , new M49Info(){
+                M49 = M49.CookIslands库克群岛,
+                ISO3166 = "CK",
+                CallingCode = "+682",
+                ShortName = "Cook Islands",
+                FullName = "Cook Islands",
+                ChineseShortName = "库克群岛",
+                ChineseFullName = "库克群岛",
+                UTCTimeSpan = new TimeSpan(-10,0,0)
+            } },
+            { M49.FrenchPolynesia法属波利尼西亚 , new M49Info(){
+                M49 = M49.FrenchPolynesia法属波利尼西亚,
+                ISO3166 = "PF",
+                CallingCode = "+689",
+                ShortName = "French Polynesia",
+                FullName = "French Polynesia",
+                ChineseShortName = "法属波利尼西亚",
+                ChineseFullName = "法属波利尼西亚(塔希提)",
+                UTCTimeSpan = new TimeSpan(-10,0,0)
+            } },
+            { M49.Niue纽埃 , new M49Info(){
+                M49 = M49.Niue纽埃,
+                ISO3166 = "NU",
+                CallingCode = "+683",
+                ShortName = "Niue",
+                FullName = "Niue",
+                ChineseShortName = "纽埃",
+                ChineseFullName = "纽埃岛",
+                UTCTimeSpan = new TimeSpan(-11,0,0)
+            } },
+            { M49.Pitcairn皮特凯恩 , new M49Info(){
+                M49 = M49.Pitcairn皮特凯恩,
+                ISO3166 = "PN",
+                CallingCode = "+064",
+                ShortName = "Pitcairn",
+                FullName = "Pitcairn, Henderson, Ducie and Oeno Islands",
+                ChineseShortName = "皮特凯恩",
+                ChineseFullName = "皮特凯恩群岛",
+                UTCTimeSpan = new TimeSpan(-8,0,0)
+            } },//5
+            { M49.Samoa萨摩亚 , new M49Info(){
+                M49 = M49.Samoa萨摩亚,
+                ISO3166 = "WA",
+                CallingCode = "+685",
+                ShortName = "Samoa",
+                FullName = "Independent State of Samoa",
+                ChineseShortName = "萨摩亚",
+                ChineseFullName = "萨摩亚独立国",
+                UTCTimeSpan = new TimeSpan(+13,0,0)
+            } },
+            { M49.Tokelau托克劳 , new M49Info(){
+                M49 = M49.Tokelau托克劳,
+                ISO3166 = "TK",
+                CallingCode = "+690",
+                ShortName = "Tokelau",
+                FullName = "Tokelau",
+                ChineseShortName = "托克劳",
+                ChineseFullName = "托克劳群岛",
+                UTCTimeSpan = new TimeSpan(+13,0,0)
+            } },
+            { M49.Tonga汤加 , new M49Info(){
+                M49 = M49.Tonga汤加,
+                ISO3166 = "TO",
+                CallingCode = "+676",
+                ShortName = "Tonga",
+                FullName = "Kingdom of Tonga",
+                ChineseShortName = "汤加",
+                ChineseFullName = "汤加王国",
+                UTCTimeSpan = new TimeSpan(+13,0,0)
+            } },
+            { M49.Tuvalu图瓦卢 , new M49Info(){
+                M49 = M49.Tuvalu图瓦卢,
+                ISO3166 = "TV",
+                CallingCode = "+688",
+                ShortName = "Tuvalu",
+                FullName = "Tuvalu(Ellice Islands)",
+                ChineseShortName = "图瓦卢",
+                ChineseFullName = "图瓦卢(埃利斯群岛)",
+                UTCTimeSpan = new TimeSpan(+12,0,0)
+            } },
+            { M49.WallisandFutunaIslands瓦利斯和富图纳群岛 , new M49Info(){
+                M49 = M49.WallisandFutunaIslands瓦利斯和富图纳群岛,
+                ISO3166 = "WF",
+                CallingCode = "+681",
+                ShortName = "Wallis and Futuna Islands",
+                FullName = "Wallis and Futuna Islands",
+                ChineseShortName = "瓦利斯和富图纳群岛",
+                ChineseFullName = "瓦利斯和富图纳群岛",
+                UTCTimeSpan = new TimeSpan(+12,0,0)
+            } },//10
+#endregion
 
         };
     }
