@@ -13,6 +13,7 @@ GetCountryUTCTimeDifference(M49)获取国家相较于UTC的时间偏差
 GetCountryTimeIsUrl(M49)获取国家时间再time.is的页面地址</Description>
     <Authors>VicBilibily欧阳敏岚</Authors>
     <Company>欧阳敏岚工作室</Company>
+    <Version>1.0.1-beta2</Version>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">

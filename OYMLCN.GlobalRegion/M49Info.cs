@@ -59,6 +59,21 @@ namespace OYMLCN.GlobalRegion
     public static partial class Data
     {
         /// <summary>
+        /// M49InfoWorld
+        /// </summary>
+        public static M49Info M49InfoWorld = new M49Info()
+        {
+            M49 = M49.World世界,
+            ISO3166 = "ALL",
+            CallingCode = "-",
+            ShortName = "World",
+            FullName = "Earth",
+            ChineseShortName = "世界",
+            ChineseFullName = "地球",
+            UTCTimeSpan = new TimeSpan(0, 0, 0)
+        };
+
+        /// <summary>
         /// M49Infos
         /// </summary>
         public static IReadOnlyDictionary<M49, M49Info> M49Infos = new Dictionary<M49, M49Info>()
@@ -1946,7 +1961,7 @@ namespace OYMLCN.GlobalRegion
                 UTCTimeSpan = new TimeSpan(0,0,0)
             } },
             { M49.IsleofMan马恩岛 , new M49Info(){
-                M49 = M49.Ireland爱尔兰,
+                M49 = M49.IsleofMan马恩岛,
                 ISO3166 = "IM",
                 CallingCode = "+044",
                 ShortName = "Isle of Man",
