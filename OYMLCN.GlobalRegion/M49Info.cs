@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using OYMLCN;
 
 namespace OYMLCN.GlobalRegion
 {
@@ -9,7 +11,10 @@ namespace OYMLCN.GlobalRegion
     /// </summary>
     public class M49Info
     {
-        internal M49Info() { }
+        /// <summary>
+        /// 信息集合
+        /// </summary>
+        public M49Info() { }
 
         /// <summary>
         /// M49
@@ -54,9 +59,9 @@ namespace OYMLCN.GlobalRegion
     }
 
     /// <summary>
-    /// Data
+    /// GlobalRegionData
     /// </summary>
-    public static partial class Data
+    public static partial class GlobalRegionData
     {
         /// <summary>
         /// M49InfoWorld
@@ -65,18 +70,71 @@ namespace OYMLCN.GlobalRegion
         {
             M49 = M49.World世界,
             ISO3166 = "ALL",
-            CallingCode = "-",
             ShortName = "World",
-            FullName = "Earth",
+            FullName = "The Whole World",
             ChineseShortName = "世界",
-            ChineseFullName = "地球",
-            UTCTimeSpan = new TimeSpan(0, 0, 0)
+            ChineseFullName = "全球",
+        };
+        /// <summary>
+        /// M49InfoContinentAfrica
+        /// </summary>
+        public static M49Info M49InfoContinentAfrica = new M49Info()
+        {
+            M49 = M49.Africa非洲,
+            ShortName = "Africa",
+            FullName = "Africa",
+            ChineseShortName = "非洲",
+            ChineseFullName = "阿非利加洲",
+        };
+        /// <summary>
+        /// M49InfoContinentAmericas
+        /// </summary>
+        public static M49Info M49InfoContinentAmericas = new M49Info()
+        {
+            M49 = M49.Americas美洲,
+            ShortName = "Americas",
+            FullName = "Americas",
+            ChineseShortName = "美洲",
+            ChineseFullName = "亚美利加洲",
+        };
+        /// <summary>
+        /// M49InfoContinentAsia
+        /// </summary>
+        public static M49Info M49InfoContinentAsia = new M49Info()
+        {
+            M49 = M49.Asia亚洲,
+            ShortName = "Asia",
+            FullName = "Asia",
+            ChineseShortName = "亚洲",
+            ChineseFullName = "亚细亚洲",
+        };
+        /// <summary>
+        /// M49InfoContinentEurope
+        /// </summary>
+        public static M49Info M49InfoContinentEurope = new M49Info()
+        {
+            M49 = M49.Europe欧洲,
+            ShortName = "Europe",
+            FullName = "Europe",
+            ChineseShortName = "欧洲",
+            ChineseFullName = "欧罗巴洲",
+        };
+        /// <summary>
+        /// M49InfoContinentOceania
+        /// </summary>
+        public static M49Info M49InfoContinentOceania = new M49Info()
+        {
+            M49 = M49.Oceania大洋洲,
+            ShortName = "Oceania",
+            FullName = "Oceania",
+            ChineseShortName = "大洋洲",
+            ChineseFullName = "大洋洲",
         };
 
         /// <summary>
         /// M49Infos
         /// </summary>
-        public static IReadOnlyDictionary<M49, M49Info> M49Infos = new Dictionary<M49, M49Info>()
+        public static IReadOnlyDictionary<M49, M49Info> M49CountryInfos = new Dictionary<M49, M49Info>()
         {
 #region EasternAfrica东部非洲
 		    // EasternAfrica东部非洲
@@ -242,7 +300,7 @@ namespace OYMLCN.GlobalRegion
             } },
             { M49.Uganda乌干达 , new M49Info(){
                 M49 = M49.Uganda乌干达,
-                ISO3166 = "UGA",
+                ISO3166 = "UG",
                 CallingCode = "+256",
                 ShortName = "Uganda",
                 FullName = "Republic of Uganda",
@@ -2022,7 +2080,7 @@ namespace OYMLCN.GlobalRegion
             } },//15
             { M49.SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛 , new M49Info(){
                 M49 = M49.SvalbardandJanMayenIslands斯瓦尔巴群岛和扬马延岛,
-                ISO3166 = "NO-21/22",
+                ISO3166 = "-",
                 CallingCode = "+047",
                 ShortName = "Svalbard and Jan Mayen Islands",
                 FullName = "Svalbard and Jan Mayen Islands",
@@ -2577,5 +2635,37 @@ namespace OYMLCN.GlobalRegion
 #endregion
 
         };
+    }
+
+    /// <summary>
+    /// Extensions
+    /// </summary>
+    public static partial class Extensions
+    {
+        /// <summary>
+        /// 获取M49编码对应的更多信息
+        /// </summary>
+        /// <param name="country"></param>
+        /// <returns></returns>
+        public static M49Info GetM49Info(this M49 country)
+        {
+            switch (country)
+            {
+                case M49.World世界:
+                    return GlobalRegionData.M49InfoWorld;
+                case M49.Africa非洲:
+                    return GlobalRegionData.M49InfoContinentAfrica;
+                case M49.Americas美洲:
+                    return GlobalRegionData.M49InfoContinentAmericas;
+                case M49.Asia亚洲:
+                    return GlobalRegionData.M49InfoContinentAsia;
+                case M49.Europe欧洲:
+                    return GlobalRegionData.M49InfoContinentEurope;
+                case M49.Oceania大洋洲:
+                    return GlobalRegionData.M49InfoContinentOceania;
+                default:
+                    return GlobalRegionData.M49CountryInfos.Where(d => d.Key == country).Select(d => d.Value).FirstOrDefault();
+            }
+        }
     }
 }

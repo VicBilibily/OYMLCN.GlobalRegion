@@ -13,7 +13,12 @@ GetCountryUTCTimeDifference(M49)获取国家相较于UTC的时间偏差
 GetCountryTimeIsUrl(M49)获取国家时间再time.is的页面地址</Description>
     <Authors>VicBilibily欧阳敏岚</Authors>
     <Company>欧阳敏岚工作室</Company>
-    <Version>1.0.1-beta2</Version>
+    <Version>1.0.2</Version>
+    <Copyright>base OYMLCN with WTFPL</Copyright>
+    <PackageLicenseUrl>http://www.wtfpl.net/</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/VicBilibily/OYMLCN.GlobalRegion</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/VicBilibily/OYMLCN.GlobalRegion.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
